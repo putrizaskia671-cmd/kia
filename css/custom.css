@@ -1,0 +1,73 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+/* ===== Tambahan untuk portofolio Zaskia Putri Duratin ===== */
+.brand-text { font-size: 26px; font-weight: 700; color: #222 !important; letter-spacing: .5px; }
+.brand-text span { color: #faad3b; }
+
+.edu-year { color: #009bb7; font-weight: 700; margin-bottom: 6px; }
+
+.org-box { background: #fff; padding: 30px 35px; margin-top: 30px; border-left: 4px solid #faad3b; box-shadow: 0 2px 15px rgba(0,0,0,.08); }
+.org-box h4 { font-size: 20px; font-weight: 700; margin-bottom: 15px; }
+.org-box ul { margin: 0; padding-left: 20px; }
+.org-box li { margin-bottom: 8px; list-style: disc; }
+
+.interest-tags span { display: inline-block; margin: 6px; padding: 12px 28px; border: 2px solid #009bb7; color: #009bb7; font-weight: 700; border-radius: 50px; }
+
+.contact-info { margin-bottom: 40px; color: #fff; }
+.contact-info i { font-size: 34px; color: #faad3b; margin-bottom: 10px; }
+.contact-info h5 { color: #fff; font-weight: 700; }
+.contact-info p, .contact-info a { color: #fff; }
+.contact-info a:hover { color: #faad3b; }
+
+/* Lapisan gelap banner dikurangi agar foto lebih jelas */
+.ct-u-display-tablex > .inner::before { background: linear-gradient(90deg, rgba(5,12,25,.35) 0%, rgba(5,12,25,.1) 70%) !important; }
+
+
+/* ===== Bagian penutup: Terima kasih sudah berkunjung ===== */
+.thanks-section { position: relative; overflow: hidden; padding: 90px 20px; text-align: center; color: #fff;
+  background: linear-gradient(120deg, #0c1a30 0%, #1b3354 55%, #5f7287 100%); }
+.thanks-section::before { content: ""; position: absolute; width: 520px; height: 520px; border-radius: 50%; right: -140px; top: -180px;
+  background: radial-gradient(circle, rgba(179,190,200,.35), transparent 70%); }
+.thanks-section::after { content: ""; position: absolute; width: 420px; height: 420px; border-radius: 50%; left: -120px; bottom: -200px;
+  background: radial-gradient(circle, rgba(249,191,63,.22), transparent 70%); }
+.thanks-inner { position: relative; z-index: 1; max-width: 760px; margin: 0 auto; }
+.thanks-badge { display: inline-block; padding: 6px 18px; border-radius: 50px; border: 1px solid rgba(255,255,255,.4); font-size: 12px; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 22px; }
+.thanks-section h2 { color: #fff; font-size: 40px; font-weight: 700; line-height: 1.25; margin: 0 0 18px; }
+.thanks-section h2::after { content: ""; display: block; width: 70px; height: 4px; background: #f9bf3f; margin: 18px auto 0; border-radius: 4px; }
+.thanks-sub { color: rgba(255,255,255,.85); font-size: 17px; line-height: 1.8; margin: 22px 0 30px; }
+.thanks-actions { margin-bottom: 36px; }
+.thanks-btn { display: inline-block; margin: 6px; padding: 13px 30px; border-radius: 50px; background: #f9bf3f; color: #0c1a30 !important; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; font-size: 13px; text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.thanks-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,.3); text-decoration: none; }
+.thanks-btn-ghost { background: transparent; color: #fff !important; border: 2px solid rgba(255,255,255,.7); padding: 11px 28px; }
+.thanks-btn-ghost:hover { background: rgba(255,255,255,.12); }
+.thanks-notice { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.25); border-left: 4px solid #f9bf3f; border-radius: 8px; padding: 16px 22px; text-align: left; font-size: 14px; line-height: 1.7; color: rgba(255,255,255,.92); }
+@media (max-width: 767px) { .thanks-section h2 { font-size: 28px; } .thanks-section { padding: 70px 18px; } }
+
+/* ===== Konten gaya Jackson ===== */
+.about-facts{margin-top:50px}
+.about-facts .services-inner-box{text-align:center;padding:30px 15px;margin-bottom:20px}
+.about-facts .services-inner-box h2{font-size:18px;margin:10px 0 0}
+.cta-box{margin-top:30px;padding:40px 20px;text-align:center;border-radius:6px;background:linear-gradient(135deg,#0b1a33,#4b5563);color:#fff}
+.cta-box h3{color:#fff;font-size:26px;line-height:1.4;margin-bottom:22px}
+.stats-band{background:linear-gradient(135deg,#0b1a33 0%,#374151 100%);padding:60px 0;color:#fff}
+.stat-num{display:block;font-size:52px;font-weight:700;color:#f5a623;line-height:1}
+.stat-label{display:block;margin-top:10px;font-size:14px;letter-spacing:1px;text-transform:uppercase;color:#e5e7eb}
+.stats-band .col-6{margin-bottom:15px}
+.skill-box{height:100%;background:#fff;border:1px solid #e5e7eb;border-radius:6px;padding:30px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.skill-box h3{font-size:20px;margin-bottom:20px;color:#0b1a33}
+.skill-box h3 i{color:#f5a623;margin-right:8px}
+.skill-tag{display:inline-block;margin:0 8px 10px 0;padding:8px 16px;border-radius:30px;background:#0b1a33;color:#fff;font-size:14px}
+.skill-tag small{color:#f5a623}
+.edu-list{border-left:3px solid #f5a623;padding-left:30px}
+.edu-item{position:relative;background:#fff;border-radius:6px;padding:25px 28px;margin-bottom:25px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.edu-item::before{content:"";position:absolute;left:-41px;top:32px;width:16px;height:16px;border-radius:50%;background:#0b1a33;border:3px solid #f5a623}
+.edu-item h4{margin:6px 0 2px;color:#0b1a33}
+.edu-item h5{font-size:16px;color:#6b7280;margin-bottom:10px}
+.tl{position:relative;padding-left:60px}
+.tl::before{content:"";position:absolute;left:21px;top:0;bottom:0;width:3px;background:#d1d5db}
+.tl-item{position:relative;margin-bottom:28px}
+.tl-dot{position:absolute;left:-60px;top:6px;width:44px;height:44px;border-radius:50%;background:#0b1a33;color:#f5a623;text-align:center;line-height:44px;font-size:18px}
+.tl-card{background:#f9fafb;border:1px solid #e5e7eb;border-radius:6px;padding:22px 26px}
+.tl-card h4{color:#0b1a33;font-size:19px}
+.tl-card h4 small{display:block;color:#6b7280;font-size:13px;margin-top:4px}
+@media(max-width:576px){.tl{padding-left:50px}.tl-dot{left:-50px;width:38px;height:38px;line-height:38px}.tl::before{left:18px}.stat-num{font-size:40px}.edu-list{padding-left:20px}.edu-item::before{left:-31px}}
