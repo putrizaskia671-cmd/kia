@@ -1,26 +1,28 @@
+/* Tambahan gaya portofolio Zaskia Putri Duratin */
+.skill-box { background: #fff; padding: 30px; margin-bottom: 30px; border: 1px solid #ededed; height: calc(100% - 30px); }
+.skill-box h3 { font-size: 20px; font-weight: 600; margin: 0 0 20px; }
+.skill-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+.skill-tag { display: inline-block; padding: 8px 18px; border-radius: 50px; color: #fff; font-size: 14px; font-weight: 500; background: #2c98f0; }
+.skill-tag small { opacity: .85; }
+.skill-tag.color-1 { background: #f9bf3f; }
+.skill-tag.color-2 { background: #2c98f0; }
+.skill-tag.color-3 { background: #3ec1a0; }
+.skill-tag.color-4 { background: #ef6a6a; }
+.skill-tag.color-5 { background: #9b6ae0; }
+.skill-tag.color-6 { background: #f08a3c; }
+.colorlib-feature-sm .colorlib-text a { color: inherit; }
+.gallery-item.is-hidden { display: none; }
 
-/** ADD YOUR AWESOME CODES HERE **/
-/* ===== Tambahan untuk portofolio Zaskia Putri Duratin ===== */
-.brand-text { font-size: 26px; font-weight: 700; color: #222 !important; letter-spacing: .5px; }
-.brand-text span { color: #faad3b; }
+/* Teks banner terang agar terbaca di atas latar gelap */
+#colorlib-hero .slider-text h1, #colorlib-hero .slider-text h2, #colorlib-hero .slider-text .desc h1, #colorlib-hero .slider-text .desc h2 { color: #fff !important; text-shadow: 0 2px 12px rgba(0,0,0,.35); }
+#colorlib-hero .flexslider .slider-text h1 { font-size: 64px; line-height: 1.15; }
+#colorlib-hero .flexslider .slider-text .btn-learn { color: #fff !important; border: 2px solid #fff !important; background: transparent; }
+#colorlib-hero .flexslider .slider-text .btn-learn:hover { background: #f9bf3f; border-color: #f9bf3f; color: #000; }
+@media (max-width: 767px) { #colorlib-hero .flexslider .slider-text h1 { font-size: 40px; } }
 
-.edu-year { color: #009bb7; font-weight: 700; margin-bottom: 6px; }
-
-.org-box { background: #fff; padding: 30px 35px; margin-top: 30px; border-left: 4px solid #faad3b; box-shadow: 0 2px 15px rgba(0,0,0,.08); }
-.org-box h4 { font-size: 20px; font-weight: 700; margin-bottom: 15px; }
-.org-box ul { margin: 0; padding-left: 20px; }
-.org-box li { margin-bottom: 8px; list-style: disc; }
-
-.interest-tags span { display: inline-block; margin: 6px; padding: 12px 28px; border: 2px solid #009bb7; color: #009bb7; font-weight: 700; border-radius: 50px; }
-
-.contact-info { margin-bottom: 40px; color: #fff; }
-.contact-info i { font-size: 34px; color: #faad3b; margin-bottom: 10px; }
-.contact-info h5 { color: #fff; font-weight: 700; }
-.contact-info p, .contact-info a { color: #fff; }
-.contact-info a:hover { color: #faad3b; }
-
-/* Lapisan gelap banner dikurangi agar foto lebih jelas */
-.ct-u-display-tablex > .inner::before { background: linear-gradient(90deg, rgba(5,12,25,.35) 0%, rgba(5,12,25,.1) 70%) !important; }
+/* Ikon sosial di sidebar */
+#colorlib-aside .colorlib-footer ul li a { color: #555; }
+#colorlib-aside .colorlib-footer ul li a:hover { color: #2c98f0; }
 
 
 /* ===== Bagian penutup: Terima kasih sudah berkunjung ===== */
@@ -42,32 +44,3 @@
 .thanks-btn-ghost:hover { background: rgba(255,255,255,.12); }
 .thanks-notice { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.25); border-left: 4px solid #f9bf3f; border-radius: 8px; padding: 16px 22px; text-align: left; font-size: 14px; line-height: 1.7; color: rgba(255,255,255,.92); }
 @media (max-width: 767px) { .thanks-section h2 { font-size: 28px; } .thanks-section { padding: 70px 18px; } }
-
-/* ===== Konten gaya Jackson ===== */
-.about-facts{margin-top:50px}
-.about-facts .services-inner-box{text-align:center;padding:30px 15px;margin-bottom:20px}
-.about-facts .services-inner-box h2{font-size:18px;margin:10px 0 0}
-.cta-box{margin-top:30px;padding:40px 20px;text-align:center;border-radius:6px;background:linear-gradient(135deg,#0b1a33,#4b5563);color:#fff}
-.cta-box h3{color:#fff;font-size:26px;line-height:1.4;margin-bottom:22px}
-.stats-band{background:linear-gradient(135deg,#0b1a33 0%,#374151 100%);padding:60px 0;color:#fff}
-.stat-num{display:block;font-size:52px;font-weight:700;color:#f5a623;line-height:1}
-.stat-label{display:block;margin-top:10px;font-size:14px;letter-spacing:1px;text-transform:uppercase;color:#e5e7eb}
-.stats-band .col-6{margin-bottom:15px}
-.skill-box{height:100%;background:#fff;border:1px solid #e5e7eb;border-radius:6px;padding:30px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
-.skill-box h3{font-size:20px;margin-bottom:20px;color:#0b1a33}
-.skill-box h3 i{color:#f5a623;margin-right:8px}
-.skill-tag{display:inline-block;margin:0 8px 10px 0;padding:8px 16px;border-radius:30px;background:#0b1a33;color:#fff;font-size:14px}
-.skill-tag small{color:#f5a623}
-.edu-list{border-left:3px solid #f5a623;padding-left:30px}
-.edu-item{position:relative;background:#fff;border-radius:6px;padding:25px 28px;margin-bottom:25px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
-.edu-item::before{content:"";position:absolute;left:-41px;top:32px;width:16px;height:16px;border-radius:50%;background:#0b1a33;border:3px solid #f5a623}
-.edu-item h4{margin:6px 0 2px;color:#0b1a33}
-.edu-item h5{font-size:16px;color:#6b7280;margin-bottom:10px}
-.tl{position:relative;padding-left:60px}
-.tl::before{content:"";position:absolute;left:21px;top:0;bottom:0;width:3px;background:#d1d5db}
-.tl-item{position:relative;margin-bottom:28px}
-.tl-dot{position:absolute;left:-60px;top:6px;width:44px;height:44px;border-radius:50%;background:#0b1a33;color:#f5a623;text-align:center;line-height:44px;font-size:18px}
-.tl-card{background:#f9fafb;border:1px solid #e5e7eb;border-radius:6px;padding:22px 26px}
-.tl-card h4{color:#0b1a33;font-size:19px}
-.tl-card h4 small{display:block;color:#6b7280;font-size:13px;margin-top:4px}
-@media(max-width:576px){.tl{padding-left:50px}.tl-dot{left:-50px;width:38px;height:38px;line-height:38px}.tl::before{left:18px}.stat-num{font-size:40px}.edu-list{padding-left:20px}.edu-item::before{left:-31px}}
